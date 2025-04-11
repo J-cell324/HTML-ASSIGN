@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyota Academy</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        form {
+            max-width: 500px;
+            margin: 20px;
+
+        }
+        label{
+            display: block;
+            margin-top: 20px 0;
+        }
+        input, select, textarea {
+width: 100%;
+padding: 8px;
+margin-top: 5px;
+box-sizing: border-box
+        }
+        .form-section {
+            margin-bottom: 15px;
+        }
+    </style>
+<h1>OUR SERVICES</h1>
+<ol type="I">
+    <li>Computer packages</li>
+    <li>Learn Basics of Microsoft Office programms </li>
+    <li>Web Development</li>
+    <li>CyberSecurity</li>
+
+</ol>
+<p><strong>REQUIREMENTS</strong></p>
+<h3>Digital Accessories i nclude (Laptop and smartphone)</h3>
+<a href="https://www.pexels.com/photo/boy-in-white-t-shirt-sitting-on-chair-in-front-of-computer-4709285/">Sample Image </a><br><br>
+<img src="image.png" alt="One of our student Learning" width="500" height="200">
+
+<h2>Contact List</h2>
+<table>
+    <tr>
+        
+        <th>Name</th>
+        
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+        
+    </tr>
+    <tr>
+        <td>Zamzam Boru</td>
+        <td>456444, United States</td>
+        <td>+446123776</td>
+        <td>boruzam234@gmail.com</td>
+    </tr>
+  
+    <tr>
+        <td>John Doe</td>
+        <td>123 Main St, City</td>
+        <td>+1 555-1234</td>
+        <td>john@example.com</td>
+    </tr>
+    <tr>
+        <td>Jane Smith</td>
+        <td>456 Oak Ave, Town</td>
+        <td>+1 555-5678</td>
+        <td>jane@example.com</td>
+    </tr>
+    <tr>
+        <td>Mike Johnson</td>
+        <td>789 Pine Rd, Village</td>
+        <td>+1 555-9012</td>
+        <td>mike@example.com</td>
+    </tr>
+    <tr>
+        <td>Sarah Williams</td>
+        <td>321 Elm Blvd, County</td>
+        <td>+1 555-3456</td>
+        <td>sarah@example.com</td>
+    </tr>
+
+
+</table>
+
+<!--Registration Form-->
+<h2>Registration Form</h2>
+<form action="/submit" method="post">
+
+<!--Full Name Field-->
+<div class="Form selection">
+<label for="name">Full Name:</label>
+<input type="text" id="name" name="name" placeholder="Enter Full Name " required><br>
+</div>
+
+<!--Email Field-->
+<div class="Form selection">
+<label for="Email">Email Address:</label>
+<input type="text" id="Email" name="Email" placeholder="Enter a valid Email Address" required><br>
+
+
+</div>
+<!--Password field-->
+<div class="Form selection">
+
+<label for="Password">Passsword:</label>
+<input type="text" id="Password" name="Password" placeholder="Enter a strong password" minlength="8" required><br>
+
+
+</div>
+
+
+<!--Date of birth-->
+<div class="Form selection">
+<label for="DOB">Date Of Birth</label>
+<input type="text" id="DOB" name="DOB" required><br>
+
+
+</div>
+
+<!--Dropdown field-->
+<div class="Form Selection">
+<label for="Courses">courses:</label><br>
+<select id="courses"> Name="Courses" <required>
+    <option value="" >--Select Course--</option>
+    <option value="HTML">HTML</option>
+    <option value="CSS">CSS</option>
+    <option value="Javascript">Javascript</option>
+
+</select><br><br>
+
+</div>
+
+<!--Radio Buttons-->
+<div class="Form Selection">
+<label><strong>Gender:</strong></label>
+<input type="Radio" id="Gender" name="Gender" value="Gender"required>
+<label for="male" style="display: inline;">male</label>
+<input type="Radio" id="Female" name="Female" value="Female">
+<label for="Female" style="display: inline;">Female</label>
+<input type="Radio" id="other" name="Gender" value="other">
+<label for="other" style="display: inline;">other</label>
+
+
+</div>
+
+<!--Checkboxes-->
+<div class="Form Selection" selection>
+<label><strong>Interests:</strong></label>
+<input type="checkbox" id="Tech" name="Interests" value="Tech">
+<label for="Tech" style="display: inline;">Technology</label>
+<input type="Checkbox" id="Sports" name="Interests" value="sports">
+<label for="Sports" style="display: inline;">Sports</label>
+<input type="checkbox" id="Music" name="Interests" value="Music">
+<label for="Music" style="display: inline;">Music</label>
+
+
+
+</div>
+<!--Submit button-->
+<div class="Form selection">
+    <input type="Submit" value="Register">
+</div>
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+</body>
+</html>
